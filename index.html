@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>LET'S TYPING WORDS IN YOUR WAY</h1>
+        <div class="form">
+            <input type="text" id="input-text">
+            <div class="button">
+                <button type="reset" id="reset"><img src="./assets/reset.ico" style="height: 14px; transform: translateY(2px); filter: invert(100%);"/> Reset</button>
+                <button id="upper">ABC</button>
+                <button id="lower">abc</button>
+                <button id="first-upper">Abc</button>
+                <button id="bold"><b>B</b></button>
+                <button id="embed"><em>I</em></button>
+                <button id="under"><u>U</u></button>
+                <button id="white-space"><img src="./assets/white_space.ico" style="height: 14px; width: 18px;"/></button>
+            </div>
+        </div>
+        <div class="output" onclick="copy()">
+            <input type="text" disabled id="output-text">
+        </div>
+        <span class="tool-text" id="tool-text">Copy to clipboard</span>
+        <!--<p id="output">Output</p>-->
+    </div>
+    <div class="atr">
+        <a href="https://github.com/thuongtruong1009/">design by <sup>&copy;</sup>thuongtruong1009</a>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
